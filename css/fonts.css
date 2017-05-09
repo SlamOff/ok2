@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url("../fonts/Exo2-Regular_0.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Exo 2";
+  src: url("../fonts/Exo2-Bold_0.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold; }
+@font-face {
+  font-family: "Exo 2";
+  src: url("../fonts/Exo2-Black_0.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 900; }
+@font-face {
+  font-family: "Exo 2";
+  src: url("../fonts/Exo2-Italic_0.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

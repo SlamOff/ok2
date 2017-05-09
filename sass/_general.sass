@@ -1,0 +1,278 @@
+$mainColor: #1b7fab
+$mainColor2: #012c54
+$redText: #933535
+$greenText: #1e4a27
+body
+	font: 2rem "Exo 2", sans-serif
+	min-width: 320px
+	position: relative
+	max-width: 1920px
+	margin: 0 auto
+	color: #2e2e2e
+	overflow-x: hidden
+h1,h2,h3,h4,h5,h6,ul,body,p
+	margin: 0
+ul
+	padding: 0
+	list-style-type: none
+a
+	text-decoration: none
+main a,
+.review a
+	margin-left: auto
+	margin-right: auto
+a.popup,a.scroll
+	display: block
+	max-width: 370px
+.relative
+	position: relative
+button
+	border: none
+	background: none
+	padding-bottom: 5px
+.review_wrapper
+	position: relative
+	.prev,.next
+		position: absolute
+		top: 45%
+		z-index: 20
+		cursor: pointer
+		i
+			font-size: 28px
+	.prev
+		left: 0
+	.next
+		right: 0
+.white_btn
+	border: solid 1px #fff
+	-webkit-border-radius: 20px
+	-moz-border-radius: 20px
+	-ms-border-radius: 20px
+	-o-border-radius: 20px
+	border-radius: 20px
+	width: 100%
+	max-width: 370px
+	padding: 11px 0 15px
+	text-align: center
+	transition: all .4s
+	&:hover
+		border: solid 1px #fff
+		color: #fff
+		background-color: #d5578a
+.btn_rose
+	text-shadow: 0 -1px rgba(50,33,26,.47)
+	font-weight: bold
+	font-size: 2.4rem
+	height: 65px
+	width: 100%
+	max-width: 370px
+	border-radius: 32px
+	color: #fff
+	background-image: url("../img/btn_rose.png")
+	box-shadow: 0 1px 3px rgba(0,0,0,0.3)
+	transition: all .4s
+	&:hover
+		box-shadow: none
+		color: #fff
+	&:focus
+		color: #fff
+.btn_blue
+	@extend .btn_rose
+	background-image: url("../img/btn_blue.png")
+button, button:focus, button:hover, input, .thumbnail, .slick-slide, img, ul, li, a, a:focus, a:visited, a:hover, div, div:focus textarea, textarea:focus
+	outline: none
+	text-decoration: none
+	color: inherit
+.politics
+	background-color: #fff
+.politics p
+	font-size: 18px
+	color: #000
+.politics_text
+	padding: 20px 40px
+.politics h3
+	background: #1782ab
+	font-size: 24px
+	color: #fff
+	text-transform: uppercase
+	text-align: center
+	padding: 20px 0
+	margin: 0
+section
+	padding: 8rem 0
+	position: relative
+	background-position: 50% 0
+	background-repeat: no-repeat
+section h6
+	font-weight: bold
+	font-size: 24px
+
+section h4
+	line-height: 30px
+
+section h3
+	font-weight: bold
+	text-align: center
+	color: #012c54
+	font-size: 3.6rem
+	margin-bottom: 5.5rem
+	span
+		font-weight: 400
+ul
+	list-style-type: none
+	padding: 0
+.thanks_body
+	background-image: linear-gradient(to right, #eb7399, #d65783)
+	margin: 0
+	height: 100%
+	color: #fff
+	display: table
+	width: 100%
+	text-align: center
+	h4
+		font-size: 36px
+		margin-top: 0
+		margin-bottom: 2rem
+	p
+		font-size: 24px
+		margin-bottom: 0
+.thanks_page
+	display: table-cell
+	vertical-align: middle
+.footer_logo
+	padding-top: 12px
+.mfp-close-btn-in .mfp-close
+	color: #fff!important
+.made_by p 
+	margin-bottom: 10px
+.copyright p 
+	margin-top: 10px
+.copyright
+	text-align: center
+	padding-top: 20px
+.made_by
+	text-align: right
+	padding-top: 20px
+.form_wrapper
+	margin: auto
+	text-align: center
+	position: relative
+	color: #fff
+	border-radius: 10px
+	padding: 4.6rem 0 6.2rem
+	background-color: #2d3958
+	width: 100%
+	max-width: 57rem
+	label.error
+		color: red
+	h6
+		font-weight: bold
+		font-size: 3.6rem
+		line-height: 3.6rem
+		margin-bottom: 1.8rem
+	p
+		font-size: 2.4rem
+		line-height: 3.6rem
+		margin-bottom: 4.4rem
+	.form
+		width: 100%
+		max-width: 370px
+		margin: 0 auto
+		input
+			border: 0
+			width: 100%
+			-webkit-border-radius: 25px
+			-ms-border-radius: 25px
+			-moz-border-radius: 25px
+			-o-border-radius: 25px
+			border-radius: 25px
+			margin-top: 5px
+			color: #000
+			background-color: #fff
+			padding: 14px 0 22px
+			text-align: center
+		textarea
+			resize: none
+			width: 100%
+			margin-top: 5px
+			border-radius: 30px
+			padding-top: 1.5rem
+			height: 13rem
+			text-align: center
+			color: #000
+		button
+			width: 100%
+			margin-top: 5px
+		input::-webkit-input-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		input::-moz-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		input:-ms-input-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		input:-moz-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		textarea::-webkit-input-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		textarea::-moz-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		textarea:-ms-input-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+
+		textarea:-moz-placeholder
+			text-align: center
+			font: 1.8rem "Exo 2", sans-serif
+			color: #000
+.popup_desc
+	margin: auto
+	text-align: left
+	position: relative
+	color: #fff
+	border-radius: 10px
+	padding: 4.6rem 10rem 6.2rem
+	background-color: #2d3958
+	width: 100%
+	max-width: 117rem
+	h6
+		font-weight: bold
+		font-size: 3.6rem
+		margin-bottom: 3.6rem
+	p
+		font-size: 2rem
+		line-height: 3rem
+		margin-bottom: 3.6rem
+canvas
+	display: none
+.timer-element
+	border: 1px solid #6e608b
+	border-radius: 5px
+	span
+		position: relative
+		top: -2px
+		font-weight: bold
+
+#timer-element-a70906ab7474e39c633babb7d0930f54-secundes,
+#timer-element-e9166ce75df7d392e166cb9ae528cd50-secundes
+	border: 1px solid #999fb2
+	background-color: #39466b
+	span
+		color: #fff!important
